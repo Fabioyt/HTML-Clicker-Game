@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<link href='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css' rel='stylesheet' />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game </title>
+    
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v8.2.0/ol.css"> <script src="https://cdn.jsdelivr.net/npm/ol@v8.2.0/dist/ol.js"></script>
+    <script src='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js'></script>
+    <script src="https://cdn.maptiler.com/maptiler-sdk-js/v2.0.3/maptiler-sdk.umd.min.js"></script>
+    
+</head>
+<body onload="checkLocalStorage()">
+    <p id="currentOrt">a</p>
+    <p id="Coin">Distance: 0</p>
+    <img src="image.png" id="btnClick" onclick="onBtnClick()"></button>
+
+    <button id="btnUpgrade" onclick="onUpgrade()"></button>
+
+    <button id="btnUpgradeSeconds" onclick="btnUpgradeSeconds()">Upgrade /s 150</button>
+
+    <div id="map"></div>
+    <script src="index.js"></script>
+   
+</body>
+</html>

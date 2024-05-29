@@ -1,0 +1,17 @@
+{
+  "name": "world-clicker",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@maptiler/sdk": "^2.0.3",
+    "angular": "^1.8.3",
+    "maplibre-gl": "^4.3.2"
+  }
+}

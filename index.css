@@ -1,0 +1,41 @@
+#btnClick{
+    width: 100px;
+    height: 100px;
+    /* border-radius: 5px; */
+    /* border: 1px solid; */
+    background-image: url(/image.png) !important;
+}
+#btnUpgrade {
+    background: url(btn.png) no-repeat center center/cover;
+    border: none;
+    border-radius: 2px;
+    width: 160px;
+    height: 30px;
+}
+#btnUpgradeSeconds {
+    background: url(btn2.png) no-repeat center center/cover;
+    border: none;
+    border-radius: 2px;
+    width: 160px;
+    height: 30px;
+}
+#map {
+    /* border: 2px red solid; */
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 500px;
+  }
+
+#map .ol-viewport {
+    display: none ;
+}
+
+#map .ol-viewport:last-child {
+    display:block !important;
+    /* border: 20px blue solid; */
+    
+}
